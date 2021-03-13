@@ -1,0 +1,43 @@
+a.navbar-brand {
+    font-size: 40px;
+    text-shadow: 3px 3px 3px #ababab;
+    color: #FAFAD2 !important;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #FFB6C1;
+}
+
+div.container {
+    margin: 10px auto;
+}
+
+a.nav-link {
+    font-size: 20px;
+    color: #FAFAD2 !important;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+button.navbar-toggler {
+    border: 1px solid #FAFAD2 !important;
+}
+
+ul.dropdown-menu {
+    background-color: #FFE4E1;
+}
+
+a.dropdown-item {
+    font-size: 20px;
+    color: #DB7093;
+}
+
+a.dropdown-item:hover {
+    color: #F08080;
+}
+
+.glyphicon {
+    color: #FAFAD2 !important;
+}
