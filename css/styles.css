@@ -4,6 +4,7 @@ a.navbar-brand {
     color: #FAFAD2 !important;
     font-family: 'Courier New', monospace;
     font-weight: bold;
+    margin-right: 50px;
 }
 
 .navbar {
@@ -19,6 +20,7 @@ a.nav-link {
     color: #FAFAD2 !important;
     font-family: 'Courier New', monospace;
     font-weight: bold;
+    margin-right: 10px;
 }
 
 button.navbar-toggler {
@@ -27,11 +29,14 @@ button.navbar-toggler {
 
 ul.dropdown-menu {
     background-color: #FFE4E1;
+    border-radius: 10px;
 }
 
 a.dropdown-item {
     font-size: 20px;
     color: #DB7093;
+    font-family: 'Courier New', monospace;
+    text-align: center;
 }
 
 a.dropdown-item:hover {
@@ -40,4 +45,8 @@ a.dropdown-item:hover {
 
 .glyphicon {
     color: #FAFAD2 !important;
+}
+
+#main-content {
+    background-color: #FFF0F5;
 }
