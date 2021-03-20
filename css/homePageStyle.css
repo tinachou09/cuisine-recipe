@@ -1,22 +1,27 @@
 /*
 h1.#homePage {
-	margin-top:0px;
+  margin-top:0px;
 }
 */
-.image-container{
-	padding: 2vw;
+.image-container {
+    padding: 2vw;
 }
 
 .home-image {
     width: 100%;
     object-fit: contain;
+    margin-bottom: 0.5vw;
 }
 
 .home-image:hover {
-	transform: scale(1.02, 1.02);
-	cursor:pointer;
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
 }
 
+#homePage > h1,
+#homePage > p {
+    margin-left: 2vw;
+}
 
 /*.row {
   display: flex;

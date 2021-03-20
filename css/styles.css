@@ -1,3 +1,7 @@
+body {
+    background-color: #FFF0F5 !important;
+}
+
 a.navbar-brand {
     font-size: 40px;
     text-shadow: 3px 3px 3px #ababab;
@@ -47,6 +51,46 @@ a.dropdown-item:hover {
     color: #FAFAD2 !important;
 }
 
-#main-content {
-    background-color: #FFF0F5;
+.panel-footer {
+    background-color:#FFDAB9;
 }
+
+footer.panel-footer {
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+    margin: 0; 
+    padding: 0;
+}
+
+ul.panel-footer {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #87CEFA;
+    font-weight: bold;
+}
+
+a.panel-footer:hover {
+    text-decoration: underline;
+}
+
+
+.ft-title {
+    color: #DB7093;
+    font-family: 'Courier New', monospace;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+}
+
+.ft-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft-main-item {
+    padding: 2.5vw;
+    min-width: 1.5rem;
+}
+

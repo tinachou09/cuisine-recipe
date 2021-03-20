@@ -13,7 +13,6 @@
         var html = "div class ='text-center'>";
         html += "<img src= 'images/ajax-loader.gif></div>";
         insertHtml(selector, html)
-        // body...
     }
 
     // Load home snippet page
